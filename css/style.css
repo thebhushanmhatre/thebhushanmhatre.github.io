@@ -1,0 +1,251 @@
+body {
+  font: ubuntu;
+}
+
+#welcome {
+  top: 0;
+  background: #afeeee;
+  min-height: 100vh;
+  padding-top: 45vh;
+}
+
+#skills {
+  background: silver;
+}
+
+#skillspage {
+  min-height: 100vh;
+  padding-top: 10px;
+  padding-bottom: 80px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.skillbox {
+  background: white;
+  border: solid;
+  margin: 10px;
+  padding: 30px;
+  width: 600px;
+}
+
+#footer {
+  background: gold;
+  font-size: 25px;
+}
+
+#projects {
+  background: aliceblue;
+  min-height: 100vh;
+}
+
+.proj {
+  background: whitesmoke;
+  width: 300px;
+  height: 300px;
+  margin: 10px;
+  border: 1px solid cadetblue;
+}
+
+.projt {
+  background: cornsilk;
+  width: 300px;
+  height: 300px;
+  margin: 10px;
+  border: 1px solid cadetblue;
+}
+
+.img-tile {
+  width: 298px;
+  height: 200px;
+  border: solid;
+}
+
+#certis {
+  background: gainsboro;
+  min-height: 100vh;
+}
+
+#project, #certs{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: lightgray;
+}
+
+.certbor {
+  background: whitesmoke;
+  width: 300px;
+  height: 310px;
+  margin: 10px;
+  border: 1px solid black;
+}
+
+.certname, .projname {
+  text-decoration: none;
+  font-family: ubuntu;
+  font-size: 22px;
+}
+
+.projsection, .certisection {
+  border: solid;
+  background: white;
+  margin-top: 50px;
+  padding: 20px;
+  width: 700px;
+}
+
+.certisection {
+  background: white;
+}
+
+.projminisection {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.certiminisection{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+#contacts {
+  background: ghostwhite;
+  min-height: 100vh;
+}
+
+#con {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.conta {
+  background: inherit;
+  width: 300px;
+  height: 300px;
+  margin: 20px;
+}
+
+.madhe {
+  width: 300px;
+  height: 300px;
+  margin: 20px;
+  font-size: 200px;
+  padding-left: 10%;
+  align-items: center;
+}
+
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  color: #121;
+  text-decoration: none;
+  font-weight: bold;
+
+}
+
+.page-title {
+  font-family: Impact, Charcoal, sans-serif;
+  font-size: 50px;
+  margin-bottom: 0px;
+}
+
+#navbar {
+  width: 100vw;
+  height: 50px;
+  position: fixed;
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  font-size: 25px;
+  background: azure;
+  opacity: 0.7;
+  font-family: Impact, Charcoal, sans-serif;
+  border-bottom: 1px solid #232;
+}
+
+#navbar:hover {
+  opacity: 1;
+}
+
+#navbar .a:hover {
+  opacity: 1;
+  font-family: Impact, Charcoal, sans-serif;
+  font-family: normal;
+}
+
+@media screen and (min-width: 1200px){
+  #welcome {
+    top: 0;
+    background: skyblue;
+    min-height: 100vh;
+    padding-top: 45vh;
+    background-image: url('../images/backbhu.jpg');
+    background-position: center;
+    background-repeat: no-repeat; 
+    background-size: cover;
+  }
+
+  .projsection, .certisection {
+    background: white;
+    margin-top: 50px;
+    padding: 20px;
+    width: 1050px;
+    border: solid;
+  }
+
+  .skillbox {
+    border: solid;
+    margin: 10px;
+    padding: 30px;
+    width: 800px;
+  }
+
+}
+
+/*
+Personal Notes:
+
+MAKE IT RESPONSIVE
+ADD media queries
+3 different for 3 different Screen Sizes
+
+
+Make background less visible (opacity)
+Make Background light and use darker version in front instead of opposite
+Use this:
+https://www.quackit.com/css/css_color_codes.cfm
+
+
+
+
+Show Title in image when you Hover over them (Difficult or rather TDS)
+
+
+
+
+One day
+Make Another Page for certificates and Projects and Show them in full size if Possible
+
+
+Upload on Github once Completed
+Along with Other Projects
+
+*/
