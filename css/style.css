@@ -33,21 +33,14 @@ body {
 }
 
 #footer {
-  background: gold;
+  background: skyblue;
   font-size: 25px;
+  padding: 10px;
 }
 
 #projects {
   background: aliceblue;
   min-height: 100vh;
-}
-
-.proj {
-  background: whitesmoke;
-  width: 300px;
-  height: 300px;
-  margin: 10px;
-  border: 1px solid cadetblue;
 }
 
 .projt {
@@ -61,7 +54,7 @@ body {
 .img-tile {
   width: 298px;
   height: 200px;
-  border: solid;
+  border: 1px solid;
 }
 
 #certis {
@@ -78,30 +71,27 @@ body {
   background: lightgray;
 }
 
-.certbor {
-  background: whitesmoke;
+.certbor, .proj {
   width: 300px;
-  height: 310px;
+  height: 300px;
   margin: 10px;
-  border: 1px solid black;
+}
+
+.tallht {
+  width: 300px;
+  height: 330px;
+  margin: 10px;
 }
 
 .certname, .projname {
   text-decoration: none;
   font-family: ubuntu;
-  font-size: 22px;
+  font-size: 20px;
+  padding: 2px;
 }
 
 .projsection, .certisection {
-  border: solid;
-  background: white;
-  margin-top: 50px;
-  padding: 20px;
   width: 700px;
-}
-
-.certisection {
-  background: white;
 }
 
 .projminisection {
@@ -110,7 +100,6 @@ body {
   align-items: center;
   justify-content: center;
 }
-
 
 .certiminisection{
   display: flex;
@@ -125,6 +114,7 @@ body {
 }
 
 #con {
+  background-color: lightgray;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -191,6 +181,10 @@ a:hover {
   font-family: normal;
 }
 
+h4 {
+  margin: 10px 0 20px 0;
+}
+
 @media screen and (min-width: 1200px){
   #welcome {
     top: 0;
@@ -204,11 +198,8 @@ a:hover {
   }
 
   .projsection, .certisection {
-    background: white;
-    margin-top: 50px;
-    padding: 20px;
+    padding-top: 10px;
     width: 1050px;
-    border: solid;
   }
 
   .skillbox {
