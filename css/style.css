@@ -1,5 +1,9 @@
 body{font:ubuntu}
-#welcome{top:0;background:#afeeee;min-height:100vh;padding-top:45vh}
+#welcome{top:0;background:silver;min-height:100vh;padding-top:45vh}
+.heart{width:200px;height:200px;background-color:white;position:absolute;transform:rotate(45deg);top:0;left:0;right:0;bottom:0;margin:auto;opacity:.2}
+.heart::before{content:"";border-radius:50%;background-color:white;width:200px;height:200px;left:0;top:-100px;position:absolute}
+.heart::after{content:"";border-radius:50%;background-color:white;width:200px;height:200px;left:-100px;top:0;position:absolute}
+.heart{animation-name:beatit;animation-duration:2s;animation-iteration-count:infinite}@keyframes beatit{50%{transform:scale(.75) rotate(45deg)}}
 #skills{background:silver}
 #skillspage{min-height:100vh;padding-top:10px;padding-bottom:80px;display:flex;flex-wrap:wrap;flex-direction:column;align-items:center;justify-content:center}
 .skillbox{background:#fff;border:solid;margin:10px;padding:30px;width:600px}
@@ -12,6 +16,7 @@ body{font:ubuntu}
 .certbor,.proj{width:300px;height:300px;margin:10px}
 .tallht{width:300px;height:330px;margin:10px}
 .certname,.projname{text-decoration:none;font-family:ubuntu;font-size:20px;padding:2px}
+.quotes {font-family:ubuntu;color:gray;}
 .certisection,.projsection{width:700px}
 .projminisection{display:flex;flex-wrap:wrap;align-items:center;justify-content:center}
 .certiminisection{display:flex;flex-wrap:wrap;align-items:center;justify-content:center}
@@ -27,7 +32,7 @@ a:hover{color:#121;text-decoration:none;font-weight:700}
 #navbar .a:hover{opacity:1;font-family:Impact,Charcoal,sans-serif;font-family:normal}
 h4{margin:10px 0 20px 0}
 
-@media screen and (min-width:1200px){#welcome{top:0;background:#87ceeb;min-height:100vh;padding-top:45vh;background-image:url(../images/backbhu.jpg);background-position:center;background-repeat:no-repeat;background-size:cover}
+@media screen and (min-width:1200px){#welcome{top:0;min-height:100vh;padding-top:45vh;background-image:url(../images/backbhu.jpg);background-position:center;background-repeat:no-repeat;background-size:cover}
 .certisection,.projsection{padding-top:10px;width:1050px}
 .skillbox{border:solid;margin:10px;padding:30px;width:800px}
 }
