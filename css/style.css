@@ -1,3 +1,4 @@
+/*
 body{font:ubuntu}
 #welcome{top:0;background:silver;min-height:100vh;padding-top:45vh}
 .heart{width:200px;height:200px;background-color:white;position:absolute;transform:rotate(45deg);top:0;left:0;right:0;bottom:0;margin:auto;opacity:.2}
@@ -32,6 +33,7 @@ h4{margin:10px 0 20px 0}
 @media screen and (min-width:1200px){#welcome{top:0;min-height:100vh;padding-top:45vh;background-image:url(../images/backbhu.jpg);background-position:center;background-repeat:no-repeat;background-size:cover}
 .certisection,.projsection{padding-top:10px;width:1050px}
 }
+*/
 
 /*
 Personal Notes:
