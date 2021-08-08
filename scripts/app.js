@@ -56,6 +56,20 @@ let contact_div = ({ href, target, color, icon }) => (
 );
 
 
+// education
+let education = document.getElementById('institutions');
+let education_div = ({ href, name, shortname, src, year, degree }) =>
+  `<div class="text-center proj">
+    <a  href="${href}" target="_blank">
+      <img class="img-tile" src="${src}" alt="${name}">
+      <br>
+      <div class="projname"> ${name} ${shortname} </div>
+      <span class="projname"> ${degree} ${year} </span>
+      <br>
+    </a>
+  </div>`;
+
+
 const display_data = data => {
   projects.innerHTML = data.projects
     .filter(project =>project.visible)
@@ -70,6 +84,10 @@ const display_data = data => {
   contacts.innerHTML = data.contacts
     .map((item) => contact_div(item))
     .join(" ");
+
+  education.innerHTML = data.education
+    .map((item) => education_div(item))
+    .join(' ');
 
 }
 

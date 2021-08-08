@@ -778,49 +778,49 @@
       "contId": 1,
       "href": "https://www.linkedin.com/in/thebhushanmhatre",
       "name": "linkedin",
-      "icon": "fa fa-linkedin fa-lg",
+      "icon": "fa fa-linkedin",
       "color": "#2977c9"
     },
     {
       "contId": 2,
       "href": "https://github.com/thebhushanmhatre",
       "name": "github",
-      "icon": "fa fa-github fa-lg",
+      "icon": "fa fa-github",
       "color": "black"
     },
     {
       "contId": 3,
       "href": "https://www.freecodecamp.org/thebhushanmhatre",
       "name": "freeCodeCamp",
-      "icon": "fa fa-free-code-camp fa-lg",
+      "icon": "fa fa-free-code-camp",
       "color": "green"
     },
     {
       "contId": 7,
       "href": "https://twitter.com/thebhushanmhatr",
       "name": "twitter",
-      "icon": "fab fa-twitter fa-lg",
+      "icon": "fa fa-twitter",
       "color": "#1DA1F2"
-    },
-    {
-      "contId": 5,
-      "href": "https://www.hackerrank.com/bhushanmhatre",
-      "name": "hackerrank",
-      "icon": "fab fa-hackerrank fa-lg",
-      "color": "#1ba94c"
     },
     {
       "contId": 4,
       "href": "https://codepen.io/thebhushanmhatre/",
       "name": "codepen",
-      "icon": "fa fa-codepen fa-lg",
+      "icon": "fa fa-codepen",
       "color": "black"
+    },
+    {
+      "contId": 5,
+      "href": "https://www.hackerrank.com/bhushanmhatre",
+      "name": "hackerrank",
+      "icon": "fa fa-code",
+      "color": "#1ba94c"
     },
     {
       "contId": 6,
       "href": "https://www.kaggle.com/thebhushanmhatre",
       "name": "kaggle",
-      "icon": "fab fa-kaggle fa-lg",
+      "icon": "fa fa-database",
       "color": "#20BEFF"
     }
   ],
