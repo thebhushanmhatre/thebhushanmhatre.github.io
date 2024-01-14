@@ -1,3 +1,10 @@
+// Navbar
+const toggleButton = document.getElementsByClassName('toggle-button')[0];
+const navbarLinks = document.getElementsByClassName('navbar-links')[0];
+
+toggleButton.addEventListener('click', () => {
+  navbarLinks.classList.toggle('active');
+});
 
 // To segregate projects - outer layer
 /*
@@ -10,17 +17,15 @@
 */
 
 // projects
-let projects = document.getElementsByClassName("projminisection")[0];
-let proj_div = ({ href, target, src, name }) => (
+let projects = document.getElementsByClassName('projminisection')[0];
+let proj_div = ({ href, target, src, name }) =>
   `<div class="proj text-center">
     <a  href="${href}" target="${target}">
       <img class="img-tile" src="${src}" alt="${name}">
       <br><br>
       <span class="projname"> ${name} </span>
     </a>
-  </div>`
-);
-
+  </div>`;
 
 // To segregate certificates - outer layer
 /*
@@ -33,28 +38,27 @@ let proj_div = ({ href, target, src, name }) => (
 */
 
 // certificates
-let certificates = document.getElementsByClassName("certiminisection")[0];
-let cert_div = ({ href, target, src, name, institute }) => (
+let certificates = document.getElementsByClassName('certiminisection')[0];
+let cert_div = ({ href, target, src, name, institute }) =>
   `<div class="text-center certbor">
     <a  href="${href}" target="${target}">
       <img class="img-tile" src="${src}" alt="${name}">
       <br>
-      <span class="certname"> ${name} ${institute ? " : " + institute : ""} </span>
+      <span class="certname"> ${name} ${
+    institute ? ' : ' + institute : ''
+  } </span>
       <br>
     </a>
-  </div>`
-);
+  </div>`;
 
 // contacts
-let contacts = document.getElementById("con");
-let contact_div = ({ href, target, color, icon }) => (
+let contacts = document.getElementById('con');
+let contact_div = ({ href, target, color, icon }) =>
   `<div class="conta">
     <a class="madhe" href="${href}" target="${target}">
       <i style="color: ${color}" class="${icon}"></i>
     </a>
-  </div>`
-);
-
+  </div>`;
 
 // education
 let education = document.getElementById('institutions');
@@ -69,28 +73,24 @@ let education_div = ({ href, name, shortname, src, year, degree }) =>
     </a>
   </div>`;
 
-
-const display_data = data => {
+const display_data = (data) => {
   projects.innerHTML = data.projects
-    .filter(project =>project.visible)
-    .map(project => proj_div(project))
-    .join(" ");
+    .filter((project) => project.visible)
+    .map((project) => proj_div(project))
+    .join(' ');
 
   certificates.innerHTML = data.certificates
-    .filter(certificate => certificate.visible)
+    .filter((certificate) => certificate.visible)
     .map((certificate) => cert_div(certificate))
-    .join(" ");
+    .join(' ');
 
-  contacts.innerHTML = data.contacts
-    .map((item) => contact_div(item))
-    .join(" ");
+  contacts.innerHTML = data.contacts.map((item) => contact_div(item)).join(' ');
 
   education.innerHTML = data.education
     .map((item) => education_div(item))
     .join(' ');
+};
 
-}
-
-fetch("scripts/data.json")
+fetch('scripts/data.json')
   .then((response) => response.json())
   .then((json) => display_data(json));
