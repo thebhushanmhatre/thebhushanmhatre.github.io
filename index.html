@@ -11,10 +11,12 @@
   <link rel="stylesheet" href="css/style.css">
 </head>
 
-<body class="bg-dark">
+<body>
 
-  <div class="navbar">
-    <div class="brand-title">Bhushan Mhatre</div>
+  <div class="navbar" id="nav-scroll">
+      <div class="brand-title">
+        <h2>Bhushan Mhatre</h2>
+      </div>
     <a href="#" class="toggle-button">
       <span class="bar"></span>
       <span class="bar"></span>
@@ -22,66 +24,22 @@
     </a>
     <div class="navbar-links">
       <ul>
-        <li><a href="#welcome">Home</a></li>
-        <li><a href="#projects">Projects</a></li>
-        <li><a href="#certificates">Certificates</a></li>
+        <li><a id="projects-btn">Projects</a></li>
+        <li><a id="certificates-btn">Certificates</a></li>
+        <li><a id="education-btn">Education</a></li>
+        <li><a id="contacts-btn">Contact me</a></li>
       </ul>
     </div>
   </div>
 
-  <div id="welcome" class="text-center" >
-    <h1 style="color: black;">Hi, <i>I am Bhushan Mhatre.</i></h1>
-    <h4 style="font-size: 25px; color: black;">
-      <i>Full Stack Web Developer</i>
-    </h4>
-    <br>
-    <br>
-    <br>
+  <div id="content">
+    <div id="content-header"></div>
+    <div id="titles"></div>
   </div>
 
-  <div id="projects">
-    <h2 style="color: white; padding-top: 60px;" class="text-center pb-3 page-title bg-dark"> My Projects</h2>
-    <div id="project" >
-      <div class="projsection text-center">
-
-        <div class="projminisection">
-          hello projects
-          <!-- Add projects here -->
-        </div>
-
-      </div>
-    </div>
+  <div id="footer" class="text-center "> 
+    Developed by <a href="https://www.linkedin.com/in/thebhushanmhatre" target="_blank">Bhushan Mhatre </a>
   </div>
-
-  <div id="certis">
-    <h2 style="color: white; padding-top: 60px;" class="text-center pb-3 page-title bg-dark"> My Certificates</h2>
-    <div id="certs" >
-      <div class="certisection text-center">
-
-        <div class="certiminisection">
-          <!-- Add certificates here -->
-        </div>
-
-      </div>
-    </div>
-  </div>
-
-  <div id="contacts" >
-    <h2 style="padding-top: 60px; color: white;" class="text-center pb-3 page-title bg-dark"> Contact Me </h2>
-    
-    <div id="con">
-      <!-- Add contacts here -->
-    </div>
-  </div>
-
-  <div id="education">
-    <h2 style="color: white; padding-top: 60px;" class="text-center pb-3 page-title bg-dark"> My Education</h2>
-      <div  style="padding-top: 100px;padding-bottom: 100px;" id="institutions">
-        <!-- Add Education Institutions here -->
-      </div>
-  </div>
-
-  <div id="footer" class="text-center ">  -- Developed by <a href="https://www.linkedin.com/in/thebhushanmhatre" target="_blank">Bhushan Mhatre </a> --  </div> -->
 
   <script type="application/javascript" src="scripts/app.js" defer></script>
 
