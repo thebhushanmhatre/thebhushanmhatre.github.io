@@ -1,9 +1,5 @@
 body{font:ubuntu}
 #welcome{top:0;background:silver;min-height:100vh;padding-top:45vh}
-.heart{width:200px;height:200px;background-color:white;position:absolute;transform:rotate(45deg);top:0;left:0;right:0;bottom:0;margin:auto;opacity:.2}
-.heart::before{content:"";border-radius:50%;background-color:white;width:200px;height:200px;left:0;top:-100px;position:absolute}
-.heart::after{content:"";border-radius:50%;background-color:white;width:200px;height:200px;left:-100px;top:0;position:absolute}
-.heart{animation-name:beatit;animation-duration:2s;animation-iteration-count:infinite}@keyframes beatit{50%{transform:scale(.75) rotate(45deg)}}
 #footer{background:#87ceeb;font-size:25px;padding:10px}
 #projects{background:#f0f8ff;min-height:100vh}
 .projt{background:#fff8dc;width:300px;height:300px;margin:10px;border:1px solid #5f9ea0}
@@ -14,14 +10,12 @@ body{font:ubuntu}
 #institutions{display:flex;flex-wrap:wrap;flex-direction:row;align-items:center;justify-content:center;}
 .certbor,.proj{width:300px;height:330px;margin:10px}
 .certname,.projname{text-decoration:none;font-family:ubuntu;font-size:20px;padding:2px}
-.quotes {font-family:ubuntu;color:gray;}
 .certisection,.projsection{width:700px}
 .projminisection{display:flex;flex-wrap:wrap;align-items:center;justify-content:center}
 .certiminisection{display:flex;flex-wrap:wrap;align-items:center;justify-content:center}
 #contacts{background:#f0f8ff;min-height:100vh}
-#con{background-color:#d3d3d3;display:flex;flex-wrap:wrap;align-items:center;justify-content:center}
-.conta{background:inherit;width:300px;height:300px;margin:20px}
-.madhe{width:300px;height:300px;margin:20px;font-size:200px;padding-left:10%;align-items:center}
+#con{background-color:#d3d3d3;display:flex;flex-wrap:wrap;align-items:center;justify-content:space-around;height:85vh}
+.madhe{width:30px;height:30px;margin:20px;font-size:100px;padding-left:10%;align-items:center}
 a{text-decoration:none;color:#000}
 a:hover{color:#121;text-decoration:none;font-weight:700}
 .page-title{font-family:Impact,Charcoal,sans-serif;font-size:50px;margin-bottom:0}

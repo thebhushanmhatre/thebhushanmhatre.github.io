@@ -3,52 +3,52 @@
     {
       "projectId": 1,
       "inbuilt": true,
-      "href": "/project/recipes",
+      "href": "https://github.com/thebhushanmhatre/bhushan-portfolio/blob/master/src/components/projects/Recipes.js",
       "src": "images/projects/recipe-app.jpg",
       "tech": ["React", "Javascript", "Fetch API"],
       "name": "Recipe App",
       "visible": true,
-      "target": ""
+      "target": "_blank"
     },
     {
       "projectId": 2,
       "inbuilt": true,
-      "href": "/project/quotes",
+      "href": "https://github.com/thebhushanmhatre/bhushan-portfolio/blob/master/src/components/projects/RandomQuoteMachine.js",
       "src": "images/projects/quotes.jpg",
       "tech": ["Javascript"],
       "name": "Random Quote Machine",
       "visible": true,
-      "target": ""
+      "target": "_blank"
     },
     {
       "projectId": 3,
       "inbuilt": true,
-      "href": "/project/todolist",
+      "href": "https://github.com/thebhushanmhatre/bhushan-portfolio/blob/master/src/components/projects/ToDoList.js",
       "src": "images/projects/todoapp.jpg",
       "tech": ["React", "Javascript"],
       "name": "To Do List App",
       "visible": true,
-      "target": ""
+      "target": "_blank"
     },
     {
       "projectId": 4,
       "inbuilt": true,
-      "href": "/project/markdown",
+      "href": "https://github.com/thebhushanmhatre/bhushan-portfolio/blob/master/src/components/projects/MarkdownPreviewer.js",
       "src": "images/projects/markdown.jpg",
       "tech": ["Javascript"],
       "name": "Markdown Previewer",
       "visible": true,
-      "target": ""
+      "target": "_blank"
     },
     {
       "projectId": 5,
       "inbuilt": true,
-      "href": "/project/clock",
+      "href": "https://github.com/thebhushanmhatre/bhushan-portfolio/blob/master/src/components/projects/PomodoroClock.js",
       "src": "images/projects/clock.jpg",
       "tech": ["Javascript"],
       "name": "Pomodoro Clock",
       "visible": true,
-      "target": ""
+      "target": "_blank"
     },
     {
       "projectId": 6,
@@ -127,7 +127,7 @@
       "src": "images/projects/radar.jpg",
       "tech": ["Electronics"],
       "name": "Arduino Radar",
-      "visible": false,
+      "visible": true,
       "target": "_blank"
     },
     {
@@ -137,7 +137,7 @@
       "src": "images/projects/robarm.jpg",
       "tech": ["Electronics"],
       "name": "Haptic Robotic Arm",
-      "visible": false,
+      "visible": true,
       "target": "_blank"
     },
     {
@@ -153,17 +153,17 @@
     {
       "projectId": 15,
       "inbuilt": false,
-      "href": "notebooks/WebScraping.html",
+      "href": "#projects",
       "src": "images/projects/web_scrapping.jpg",
       "tech": ["Python", "Web Scrapping"],
       "name": "Web Scrapping using Beautiful Soup",
       "visible": true,
-      "target": "_blank"
+      "target": ""
     },
     {
       "projectId": 16,
       "inbuilt": false,
-      "href": "notebooks/Handwashing.html",
+      "href": "#projects",
       "src": "images/projects/hand_washing.jpg",
       "tech": ["Python", "Data Analysis"],
       "name": "Wash your Hands says the Data",
