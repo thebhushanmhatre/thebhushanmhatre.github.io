@@ -1,0 +1,26 @@
+[
+  {
+    "href": "https://en.wikipedia.org/wiki/Veermata_Jijabai_Technological_Institute",
+    "name": "Veermata Jijabai Techological Institute",
+    "shortname": "V.J.T.I.",
+    "src": "images/vjti_logo.jpg",
+    "year": "2019",
+    "degree": "B.Tech."
+  },
+  {
+    "href": "http://www.patkarvardecollege.edu.in/index.php",
+    "name": "Patkar College of Science",
+    "shortname": "Patkar College",
+    "src": "images/patkar_logo.jpg",
+    "year": "2015",
+    "degree": "Junior College (Science)"
+  },
+  {
+    "href": "https://en.wikipedia.org/wiki/Saint_Francis_D%27Assisi_High_School",
+    "name": "St. Francis D'Assisi High School",
+    "shortname": "S.F.H.S.",
+    "src": "images/sfhs_logo.jpg",
+    "year": "2013",
+    "degree": "School"
+  }
+]

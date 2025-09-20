@@ -1,0 +1,202 @@
+[
+  {
+    "projectId": 1,
+    "inbuilt": true,
+    "href": "https://github.com/thebhushanmhatre/bhushan-portfolio/blob/master/src/components/projects/Recipes.js",
+    "src": "images/projects/recipe-app.jpg",
+    "tech": ["React", "Javascript", "Fetch API"],
+    "name": "Recipe App",
+    "visible": true,
+    "target": "_blank"
+  },
+  {
+    "projectId": 2,
+    "inbuilt": true,
+    "href": "https://github.com/thebhushanmhatre/bhushan-portfolio/blob/master/src/components/projects/RandomQuoteMachine.js",
+    "src": "images/projects/quotes.jpg",
+    "tech": ["Javascript"],
+    "name": "Random Quote Machine",
+    "visible": true,
+    "target": "_blank"
+  },
+  {
+    "projectId": 3,
+    "inbuilt": true,
+    "href": "https://github.com/thebhushanmhatre/bhushan-portfolio/blob/master/src/components/projects/ToDoList.js",
+    "src": "images/projects/todoapp.jpg",
+    "tech": ["React", "Javascript"],
+    "name": "To Do List App",
+    "visible": true,
+    "target": "_blank"
+  },
+  {
+    "projectId": 4,
+    "inbuilt": true,
+    "href": "https://github.com/thebhushanmhatre/bhushan-portfolio/blob/master/src/components/projects/MarkdownPreviewer.js",
+    "src": "images/projects/markdown.jpg",
+    "tech": ["Javascript"],
+    "name": "Markdown Previewer",
+    "visible": true,
+    "target": "_blank"
+  },
+  {
+    "projectId": 5,
+    "inbuilt": true,
+    "href": "https://github.com/thebhushanmhatre/bhushan-portfolio/blob/master/src/components/projects/PomodoroClock.js",
+    "src": "images/projects/clock.jpg",
+    "tech": ["Javascript"],
+    "name": "Pomodoro Clock",
+    "visible": true,
+    "target": "_blank"
+  },
+  {
+    "projectId": 6,
+    "inbuilt": false,
+    "href": "https://github.com/thebhushanmhatre/book_flights",
+    "src": "images/projects/bookflight.jpg",
+    "tech": ["Ruby", "Ruby on Rails"],
+    "name": "Flight Booking App",
+    "visible": true,
+    "target": "_blank"
+  },
+  {
+    "projectId": 7,
+    "inbuilt": false,
+    "href": "https://codepen.io/thebhushanmhatre/full/BbPrwa",
+    "src": "images/projects/calculator.jpg",
+    "tech": ["Javascript"],
+    "name": "Simple Calculator",
+    "visible": true,
+    "target": "_blank"
+  },
+  {
+    "projectId": 8,
+    "inbuilt": false,
+    "href": "https://codepen.io/thebhushanmhatre/full/QYeKBy",
+    "src": "images/projects/drum.jpg",
+    "tech": ["Javascript"],
+    "name": "Drum Machine",
+    "visible": true,
+    "target": "_blank"
+  },
+  {
+    "projectId": 9,
+    "inbuilt": false,
+    "href": "https://codepen.io/thebhushanmhatre/full/KJbZrY",
+    "src": "images/projects/bookmark.jpg",
+    "tech": ["Javascript"],
+    "name": "Bookmark App",
+    "visible": true,
+    "target": "_blank"
+  },
+  {
+    "projectId": 10,
+    "inbuilt": false,
+    "href": "https://codepen.io/thebhushanmhatre/full/aXPoNw",
+    "src": "images/projects/weights.jpg",
+    "tech": ["Javascript"],
+    "name": "Intergallatic Weights",
+    "visible": true,
+    "target": "_blank"
+  },
+  {
+    "projectId": 12,
+    "inbuilt": false,
+    "href": "",
+    "src": "images/projects/senti.jpg",
+    "tech": ["Python", "Machine Learning"],
+    "name": "Sentiment Analysis",
+    "visible": false,
+    "target": ""
+  },
+  {
+    "projectId": 11,
+    "inbuilt": false,
+    "href": "https://www.kaggle.com/thebhushanmhatre/my-firsttry-on-kaggle/",
+    "src": "images/projects/titanic.jpg",
+    "tech": ["Python", "Machine Learning"],
+    "name": "Kaggle: Titanic Dataset",
+    "visible": true,
+    "target": "_blank"
+  },
+  {
+    "projectId": 13,
+    "inbuilt": false,
+    "href": "",
+    "src": "images/projects/radar.jpg",
+    "tech": ["Electronics"],
+    "name": "Arduino Radar",
+    "visible": true,
+    "target": "_blank"
+  },
+  {
+    "projectId": 14,
+    "inbuilt": false,
+    "href": "",
+    "src": "images/projects/robarm.jpg",
+    "tech": ["Electronics"],
+    "name": "Haptic Robotic Arm",
+    "visible": true,
+    "target": "_blank"
+  },
+  {
+    "projectId": 17,
+    "inbuilt": false,
+    "href": "https://github.com/thebhushanmhatre/Tetris",
+    "src": "images/projects/tetris_js.jpg",
+    "tech": ["JavaScript", "Game"],
+    "name": "Tetris Game",
+    "visible": true,
+    "target": "_blank"
+  },
+  {
+    "projectId": 15,
+    "inbuilt": false,
+    "href": "#projects",
+    "src": "images/projects/web_scrapping.jpg",
+    "tech": ["Python", "Web Scrapping"],
+    "name": "Web Scrapping using Beautiful Soup",
+    "visible": true,
+    "target": ""
+  },
+  {
+    "projectId": 16,
+    "inbuilt": false,
+    "href": "#projects",
+    "src": "images/projects/hand_washing.jpg",
+    "tech": ["Python", "Data Analysis"],
+    "name": "Wash your Hands says the Data",
+    "visible": true,
+    "target": "_blank"
+  },
+  {
+    "projectId": 18,
+    "inbuilt": false,
+    "href": "https://github.com/thebhushanmhatre/url-shortener",
+    "src": "images/projects/url_shortener.jpg",
+    "tech": ["Python"],
+    "name": "Url-Shortner",
+    "visible": true,
+    "target": "_blank"
+  },
+  {
+    "projectId": 19,
+    "inbuilt": false,
+    "href": "https://github.com/thebhushanmhatre/react-flask-app",
+    "src": "images/projects/react_flask_app.jpg",
+    "tech": ["Javascript", "Python", "React", "Flask"],
+    "name": "React-Flask App",
+    "visible": true,
+    "target": "_blank"
+  },
+  {
+    "projectId": 20,
+    "inbuilt": false,
+    "href": "https://github.com/thebhushanmhatre/JSProjects",
+    "src": "images/projects/js_apps.jpg",
+    "tech": ["Javascript"],
+    "name": "Vanilla Javascript Apps",
+    "visible": false,
+    "target": "_blank"
+  }
+]

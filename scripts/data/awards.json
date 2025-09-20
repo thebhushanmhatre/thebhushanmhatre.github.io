@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "title": "Star of the month: Team Award",
+    "issuer": "MSCI Inc",
+    "issuedOn": "December, 2020",
+    "link": "https://drive.google.com/file/d/1Lrvzt-xmbTCqzmTb0pjQJhw7MowR1K2e/view",
+    "description": "'Best Collaborative team to build and release Rating Model Enhancements project with methodology enhancements, report changes, proforma model in November 2020 with greatest client commitment. IT, DCS, BA, Research and PSS teams worked collaboratively together and demonstrated high level of commitment, ownership and responsibility. Many congratulations for getting this delivered within the required timeframe and demonstrating cross functional collaboration. A fantastic efforts from the entire team. The team performed really well in every aspect of the project right from specs, process, implementation and testing. This team has set very high standards of ownership, determination and dedication as they had to work beyond working hours and weekends.'\n\n' Niranjan Sarade, Vice President, MSCI"
+  },
+  {
+    "id": 2,
+    "title": "Star of the month: Team Award",
+    "issuer": "MSCI Inc",
+    "issuedOn": "March, 2022",
+    "link": "https://drive.google.com/file/d/1Lrvzt-xmbTCqzmTb0pjQJhw7MowR1K2e/view",
+    "description": "'ICP is the only ESG application where Issuers verify and submit their factual data to MSCI. The MSCI shares the rating and other reports back to Issuers after verification and before we go public with ratings. It tells the issuer their ESG Rating and other ESG parameters free of cost.. This remarkable feat was achieved by a multifunction agile team who quickly organized themselves to deliver this in record time. It was very important to this at the start of the year to pave the way for the aggressive roadmap to merge ICP and Climate Lab into one. The cross-functional team got together in an agile fashion and delivered this to production from start to end in less than 8 weeks considering year-end blackouts and vacations.'\n\n- Rahul Kulkarni, Executive Director, MSCI"
+  },
+  {
+    "id": 3,
+    "title": "MSCI India Hackathon 2022 Winners (3rd Prize)",
+    "issuer": "MSCI Inc",
+    "issuedOn": "April, 2022",
+    "link": "https://drive.google.com/file/d/1hrLDg615Wucj5UNrNrQFe8jYe7LMLUMM/view",
+    "description": "Knowledge Nexus: Breaking Down Barriers in the Workplace\n\nKnowledge Nexus is a user-friendly search app designed to enhance collaboration and connection among employees. Here's what it offers:\n\n- Skill-Based Search: Easily find colleagues based on their skills and business knowledge.\n- Team Collaboration: Foster teamwork by bridging gaps between different departments.\n- Inclusive Culture: Encourage an open environment where everyone can contribute and learn.\n- Diverse Connections: Connect with individuals who have varied skill sets for shared learning.\n- Centralized Employee Information: Access all employee-related information in one place.\n\nWhy Choose Knowledge Nexus?\n- Adapting to Remote Work: As remote work reduces interactions between teams, Knowledge Nexus helps maintain connections that were once common in the office.\n- Finding Expertise Made Easy: The app addresses the challenge of locating individuals with specific skills or knowledge when you need assistance.\n- Streamlined Recommendations: It simplifies the year-end recommendation process, especially for managers overseeing large teams.\n\n Our team was proud to be ranked 3rd out of 85 ideas, with 30 teams shortlisted for participation. We utilized Azure Cosmos DB and React JS to develop this solution.\nKnowledge Nexus aims to solve workplace challenges by creating a platform that promotes collaboration and knowledge sharing among employees."
+  },
+  {
+    "id": 4,
+    "title": "Star of the month: Individual Award",
+    "issuer": "MSCI Inc",
+    "issuedOn": "December, 2022",
+    "link": "https://drive.google.com/file/d/1-l_YyjEXXkU8dG0im-_MJ_eQIe78F3HX/view",
+    "description": "'In line with Henry's 'Issuer First' vision, we started Issuer's query transformation program in April - 2022 to provide an improvised user experience to issuers. We renovated the ICP External User experience to avoid duplicate and timeless data. As this was a complex implementation in the area of ICP External, ICP Internal, and Capture. The Nominee played a pivotal role among all teams and implemented the entire assignment single-handedly. He did co-ordinate between different teams, brought all details to the table to move fast, and implemented with no/minimal glitches.'\n\n- Sameer Amrutia, Vice President, MSCI"
+  },
+  {
+    "id": 5,
+    "title": "Star of the month: Team Award",
+    "issuer": "MSCI Inc",
+    "issuedOn": "February 2023",
+    "link": "https://drive.google.com/file/d/1icFYl6u6aC9qyNWfSVzk7FrSIVOZaGHg/view",
+    "description": "'Issuer Data Collection and Feedback process is a critical part of ESG Data Collection, where the data is provided by issuers which is then validated by MSCI team. With existing significant backlog, there was a requirement to analyze the existing Issuer feedback process, ideate & formulate come up with solution to streamline the issuer experience, provide transparency and provide analytical tool to empower MSCI analyst and thereby bringing efficiencies in the process and in turn address some of the drivers for the backlog. Project team compromising DCS Transformation, ICP Engineering & TPM team was formed to have a focused approach to improve the Issuer collection, feedback process.'\n\n - Sumukha Nagaraja, Vice President, MSCI."
+  },
+  {
+    "id": 6,
+    "title": "MSCI Global T&D AI Hackathon 2024",
+    "issuer": "MSCI Inc",
+    "issuedOn": "August, 2024",
+    "link": "https://drive.google.com/file/d/1aWgXyM22FSPuE84vycHfUVq3dtH6ISjR/view",
+    "description": "AI Xtractor: Simplifying Document Processing\n\nAI Xtractor is an innovative app that makes it easy to extract information from documents. Instead of manually filling out forms, users can simply scan their documents, and the app displays the extracted data in a clear grid format. This saves time and reduces the effort needed for data entry.\n\nWe started with two apps: one for storing documents and another for filling out forms. To connect these, we used AI technology to create a smooth workflow.\n\nKey Benefits:\n\n- Quick Data Extraction: Users can upload their documents and get the information they need extracted from them.\n- Easy Review Process: The extracted data is shown in a grid, allowing users to check and accept the information easily.\n- Time-Saving: This automation speeds up the process and minimizes errors, making it more efficient for everyone involved.\n\nAI Xtractor is designed to enhance productivity and improve the overall experience for users by simplifying document handling."
+  }
+]
