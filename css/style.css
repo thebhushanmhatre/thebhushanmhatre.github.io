@@ -1,31 +1,264 @@
-body{font:ubuntu}
-#welcome{top:0;background:silver;min-height:100vh;padding-top:45vh}
-#footer{background:#87ceeb;font-size:25px;padding:10px}
-#projects{background:#f0f8ff;min-height:100vh}
-.projt{background:#fff8dc;width:300px;height:300px;margin:10px;border:1px solid #5f9ea0}
-.img-tile{width:298px;height:200px;border:1px solid}
-#certis{background:#f0f8ff;min-height:100vh}
-#certs,#project{display:flex;flex-wrap:wrap;flex-direction:column;align-items:center;justify-content:center;}
-#education{background:#f0f8ff}
-#institutions{display:flex;flex-wrap:wrap;flex-direction:row;align-items:center;justify-content:center;}
-.certbor,.proj{width:300px;height:330px;margin:10px}
-.certname,.projname{text-decoration:none;font-family:ubuntu;font-size:20px;padding:2px}
-.certisection,.projsection{width:700px}
-.projminisection{display:flex;flex-wrap:wrap;align-items:center;justify-content:center}
-.certiminisection{display:flex;flex-wrap:wrap;align-items:center;justify-content:center}
-#contacts{background:#f0f8ff;min-height:100vh}
-#con{background-color:#d3d3d3;display:flex;flex-wrap:wrap;align-items:center;justify-content:space-around;height:85vh}
-.madhe{width:30px;height:30px;margin:20px;font-size:100px;padding-left:10%;align-items:center}
-a{text-decoration:none;color:#000}
-a:hover{color:#121;text-decoration:none;font-weight:700}
-.page-title{font-family:Impact,Charcoal,sans-serif;font-size:50px;margin-bottom:0}
-#navbar{width:100vw;height:50px;position:fixed;padding:10px;display:flex;flex-direction:row;justify-content:space-around;font-size:25px;background:azure;opacity:.7;font-family:Impact,Charcoal,sans-serif;border-bottom:1px solid #232}
-#navbar:hover{opacity:1}
-#navbar .a:hover{opacity:1;font-family:Impact,Charcoal,sans-serif;font-family:normal}
-h4{margin:10px 0 20px 0}
+#navbar .hide {
+  display: none !important;
+}
+:root {
+  --primary-bg: beige;
+  --secondary-bg: #d3d3d3;
+  --navbar-bg: #6f5b3e;
+  --navbar-hover-bg: #6f5b3e;
+  --navbar-hover-color: #232b2b;
+  --navbar-color: #fff;
+  --footer-bg: #87ceeb;
+  --proj-bg: #fff8dc;
+  --proj-border: #5f9ea0;
+  --cert-bg: #fff8dc;
+  --cert-border: #5f9ea0;
+  --welcome-bg: beige;
+  --welcome-title: black;
+  --contacts-bg: #f0f8ff;
+  --tile-border: #000;
+  --link-color: #000;
+  --link-hover-color: #121;
+  --page-title-color: #fff;
+}
 
-@media screen and (min-width:1200px){#welcome{top:0;min-height:100vh;padding-top:45vh;background-image:url(../images/backbhu.jpg);background-position:center;background-repeat:no-repeat;background-size:cover}
-.certisection,.projsection{padding-top:10px;width:1050px}
+/* Hamburger Navbar Styles */
+.hamburger-icon {
+  display: inline-block;
+  cursor: pointer;
+  width: 40px;
+  height: 40px;
+  margin: 8px;
+  vertical-align: middle;
+  position: relative;
+}
+.hamburger-icon.floating {
+  position: fixed;
+  top: 16px;
+  right: 20px;
+  z-index: 2000;
+  background: none;
+  box-shadow: none;
+}
+.hamburger-icon .bar {
+  display: block;
+  height: 5px;
+  width: 30px;
+  background: var(--navbar-hover-color);
+  margin: 6px 0;
+  border-radius: 2px;
+  transition: 0.3s;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.15);
+}
+.hamburger-icon .x-icon {
+  position: absolute;
+  top: 7px;
+  left: 5px;
+  width: 30px;
+  height: 30px;
+  display: none;
+}
+.hamburger-icon .x-icon:before,
+.hamburger-icon .x-icon:after {
+  content: '';
+  position: absolute;
+  width: 30px;
+  height: 5px;
+  background: var(--navbar-hover-color);
+  border-radius: 2px;
+  top: 12px;
+  left: 0;
+}
+.hamburger-icon .x-icon:before {
+  transform: rotate(45deg);
+}
+.hamburger-icon .x-icon:after {
+  transform: rotate(-45deg);
+}
+.hamburger-icon.open .bar {
+  display: none;
+}
+.hamburger-icon.open .x-icon {
+  display: block;
+}
+.hamburger-icon .bar {
+  display: block;
+}
+.hamburger-icon:not(.open) .x-icon {
+  display: none;
+}
+body {
+  font: ubuntu;
+}
+#welcome {
+  top: 0;
+  background: var(--welcome-bg);
+  min-height: 100vh;
+  padding-top: 45vh;
+}
+#footer {
+  background: var(--footer-bg);
+  font-size: 25px;
+  padding: 10px;
+}
+#projects {
+  background: var(--primary-bg);
+  min-height: 100vh;
+}
+.projt {
+  background: var(--proj-bg);
+  width: 300px;
+  height: 300px;
+  margin: 10px;
+  border: 1px solid var(--proj-border);
+}
+.img-tile {
+  width: 298px;
+  height: 200px;
+  border: 1px solid var(--tile-border);
+}
+/* Navbar dropdown style for floating menu */
+#navbar {
+  position: fixed;
+  top: 60px;
+  margin-top: 10px;
+  right: 20px;
+  min-width: 180px;
+  max-width: 250px;
+  background: var(--navbar-hover-color);
+  color: var(--navbar-hover-color);
+  border-radius: 8px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.18);
+  padding: 12px 18px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  z-index: 1500;
+  font-size: 20px;
+  opacity: 0.98;
+  font-family: Impact, Charcoal, sans-serif;
+  border: none;
+}
+#navbar span {
+  margin: 8px 0;
+}
+#navbar a {
+  color: var(--navbar-color);
+  text-decoration: none;
+  font-weight: 500;
+  padding: 4px 12px;
+  border-radius: 4px;
+  transition: background 0.2s, color 0.2s;
+}
+#navbar a:hover {
+  background: var(--navbar-hover-bg);
+  color: var(--navbar-hover-color);
+}
+#certis {
+  background: var(--primary-bg);
+  min-height: 100vh;
+}
+#certs,
+#project {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+#education {
+  background: var(--primary-bg);
+}
+#institutions {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.certbor,
+.proj {
+  width: 300px;
+  height: 330px;
+  margin: 10px;
+}
+.certname,
+.projname {
+  text-decoration: none;
+  font-family: ubuntu;
+  font-size: 20px;
+  padding: 2px;
+}
+.certisection,
+.projsection {
+  width: 700px;
+}
+.projminisection {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+.certiminisection {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+#contacts {
+  background: var(--contacts-bg);
+  min-height: 100vh;
+}
+#con {
+  background-color: var(--secondary-bg);
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+  height: 85vh;
+}
+.madhe {
+  width: 30px;
+  height: 30px;
+  margin: 20px;
+  font-size: 100px;
+  padding-left: 10%;
+  align-items: center;
+}
+a {
+  text-decoration: none;
+  color: var(--link-color);
+}
+a:hover {
+  color: var(--link-hover-color);
+  text-decoration: none;
+  font-weight: 700;
+}
+.page-title {
+  font-family: Impact, Charcoal, sans-serif;
+  font-size: 50px;
+  margin-bottom: 0;
+  color: var(--page-title-color);
+}
+h4 {
+  margin: 10px 0 20px 0;
+}
+
+@media screen and (min-width: 1200px) {
+  #welcome {
+    top: 0;
+    min-height: 100vh;
+    padding-top: 45vh;
+    background-image: url(../images/backbhu.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .certisection,
+  .projsection {
+    padding-top: 10px;
+    width: 1050px;
+  }
 }
 
 /*
